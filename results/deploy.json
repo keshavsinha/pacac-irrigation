@@ -1,0 +1,27 @@
+{
+ "params": 5249,
+ "macs": 5120,
+ "fp32_bytes": 20996,
+ "int8_bytes": 5273,
+ "layers": [
+  [
+   64,
+   15
+  ],
+  [
+   64,
+   64
+  ],
+  [
+   1,
+   64
+  ]
+ ],
+ "numpy_latency_us": 27.25390140003583,
+ "int8_max_abs_err_mm": 0.05436909198760986,
+ "int8_mean_abs_err_mm": 0.0005150723736733198,
+ "transition_record_bytes": 32,
+ "upload_B_per_h": 64,
+ "update_B_per_week": 5337,
+ "update_B_per_h": 31.767857142857142
+}
